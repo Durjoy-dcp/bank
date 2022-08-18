@@ -6,9 +6,11 @@ document.getElementById('sbmt').addEventListener('click', function () {
 
 
     if (emailField.value === 'downtown@gmail.com' && passwordField.value === 'bangladesh') {
-        console.log('valid user');
+        // console.log('valid user');
+        document.location.href = 'bank.html';
     } else {
-        console.log('invalid user');
+        // console.log('invalid user');
+        alert('You forgot the password!!!');
     }
 
 })
